@@ -1,32 +1,32 @@
 let score="33";
-console.log(typeof score);
-console.log(typeof(score));
-let valNum=Number(score);
-console.log(typeof valNum);
+// console.log(typeof score);
+// console.log(typeof(score));
+// let valNum=Number(score);
+// console.log(typeof valNum);
 
 
 let score1="33abc";
 let valNum1=Number(score1); //Converting string to Number
-console.log(typeof valNum1);// Gives number but it is NaN
-console.log(valNum1);// This line prints NaN
+// console.log(typeof valNum1);// Gives number but it is NaN
+// console.log(valNum1);// This line prints NaN
 
 
 let a=null;
 let num=Number(a); //Converting null to Number becomes 0
-console.log(typeof num);// Gives number but it is 0
-console.log(num);// This line prints 0
+// console.log(typeof num);// Gives number but it is 0
+// console.log(num);// This line prints 0
 
 
 let b=undefined;
 let n=Number(b); //Converting undefined to Number
-console.log(typeof n);// Gives number but it is NaN
-console.log(n);// This line prints NaN
+// console.log(typeof n);// Gives number but it is NaN
+// console.log(n);// This line prints NaN
 
 
 let c="Aravind";
 let z=Number(c); //Converting string to Number
-console.log(typeof z);// Gives number but it is NaN
-console.log(z);// This line prints NaN
+// console.log(typeof z);// Gives number but it is NaN
+// console.log(z);// This line prints NaN
 
 
 //"33"==> 33
@@ -40,21 +40,52 @@ console.log(z);// This line prints NaN
 let sm=true;
 
 let nn=Boolean(sm);
-console.log(typeof nn);// converting true to boolean gives true
-console.log(nn);//prints true
+// console.log(typeof nn);// converting true to boolean gives true
+// console.log(nn);//prints true
 
 
 let mm="";
 let zz=Boolean(mm);
-console.log(typeof zz);// converting true to boolean gives false
-console.log(zz);//prints false
+// console.log(typeof zz);// converting true to boolean gives false
+// console.log(zz);//prints false
 
 
 let aa="Aravind";
 let yy=Boolean(aa);
-console.log(typeof yy);// converting true to boolean gives true
-console.log(yy);//prints true
+// console.log(typeof yy);// converting true to boolean gives true
+// console.log(yy);//prints true
 
 //true==>1 false==>0;
 //""==>false(emplty string)
 //"Aravind"==>true
+
+
+
+//************************Operations ***********************************
+
+let d=33;
+let negVal=-d;
+// console.log(negVal)
+
+let str1="Aravind";
+let str2="Vinny";
+
+let str3=str1+str2;
+console.log(str3);
+
+
+console.log("1"+2);
+console.log(1+"2");
+console.log("1"+2+2);
+console.log(1+2 +"2");
+
+
+//*********Prefix and Post Fix */
+
+//a++-->increments and returns the value before incrementing.
+//++a-->increments and returns the value after incrementing.
+let xx=5;
+let gg=6;
+
+console.log(xx++);//first prints and increments
+console.log(++gg);//first increments and prints
