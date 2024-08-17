@@ -38,3 +38,28 @@ console.log(Object.values(obj2));
 console.log(Object.entries(obj2));
 
 console.log(obj2.hasOwnProperty(1));//THis return t or f as search for the key in object
+
+
+///Object Destructuring
+
+const course={
+    coursename:"Java Script",
+    courseprice: 999,
+    courseinstructor:"hitesh",
+}
+
+const {coursename:nname}=course;
+
+// console.log(coursename);
+console.log(nname);
+
+//===============API+++++++++++++++++++++++++++
+
+{
+    {}
+    {}
+}
+[
+    {},
+    {},
+]///
